@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="403145" started-at="2020-06-29T07:09:58Z" finished-at="2020-06-29T07:16:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="403145" started-at="2020-06-29T07:09:58Z" finished-at="2020-06-29T07:16:41Z">
+      <class name="com.qa.BAI_Portal_Tests.BAI_Home_Test">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="init" is-config="true" duration-ms="21792" started-at="2020-06-29T12:39:58Z" finished-at="2020-06-29T12:40:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="FAIL" signature="leftPannel()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="leftPannel" duration-ms="43382" started-at="2020-06-29T12:40:20Z" finished-at="2020-06-29T12:41:03Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//li[16]//a[1]"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INC115', ip: '192.168.225.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RKONRE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63709}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: be96cdacaa4a19d9e6f3e252cf89745c
+*** Element info: {Using=xpath, value=//li[16]//a[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[16]//a[1]"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INC115', ip: '192.168.225.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RKONRE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63709}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: be96cdacaa4a19d9e6f3e252cf89745c
+*** Element info: {Using=xpath, value=//li[16]//a[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at com.qa.BAI_Portal_Pages.BAI_HomePage.validateLeftPanel(BAI_HomePage.java:320)
+	at com.qa.BAI_Portal_Tests.BAI_Home_Test.leftPannel(BAI_Home_Test.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leftPannel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="tearDown" is-config="true" duration-ms="1107" started-at="2020-06-29T12:41:04Z" finished-at="2020-06-29T12:41:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="init" is-config="true" duration-ms="18433" started-at="2020-06-29T12:41:05Z" finished-at="2020-06-29T12:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="selectHospitalAndValidateLabels()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="selectHospitalAndValidateLabels" duration-ms="50516" started-at="2020-06-29T12:41:24Z" finished-at="2020-06-29T12:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHospitalAndValidateLabels -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="tearDown" is-config="true" duration-ms="788" started-at="2020-06-29T12:42:14Z" finished-at="2020-06-29T12:42:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="init" is-config="true" duration-ms="17300" started-at="2020-06-29T12:42:15Z" finished-at="2020-06-29T12:42:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="validateDateFilters()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="validateDateFilters" duration-ms="33376" started-at="2020-06-29T12:42:32Z" finished-at="2020-06-29T12:43:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDateFilters -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="tearDown" is-config="true" duration-ms="827" started-at="2020-06-29T12:43:06Z" finished-at="2020-06-29T12:43:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="init" is-config="true" duration-ms="16279" started-at="2020-06-29T12:43:06Z" finished-at="2020-06-29T12:43:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="validateEFTFilter()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="validateEFTFilter" duration-ms="30216" started-at="2020-06-29T12:43:23Z" finished-at="2020-06-29T12:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEFTFilter -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="tearDown" is-config="true" duration-ms="1181" started-at="2020-06-29T12:43:53Z" finished-at="2020-06-29T12:43:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="init" is-config="true" duration-ms="16539" started-at="2020-06-29T12:43:54Z" finished-at="2020-06-29T12:44:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="validateHomePage()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="validateHomePage" duration-ms="18506" started-at="2020-06-29T12:44:11Z" finished-at="2020-06-29T12:44:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="tearDown" is-config="true" duration-ms="767" started-at="2020-06-29T12:44:29Z" finished-at="2020-06-29T12:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="init" is-config="true" duration-ms="16559" started-at="2020-06-29T12:44:30Z" finished-at="2020-06-29T12:44:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="validateHospitalTabs()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="validateHospitalTabs" duration-ms="22857" started-at="2020-06-29T12:44:46Z" finished-at="2020-06-29T12:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHospitalTabs -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="tearDown" is-config="true" duration-ms="829" started-at="2020-06-29T12:45:09Z" finished-at="2020-06-29T12:45:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="init" is-config="true" duration-ms="17245" started-at="2020-06-29T12:45:10Z" finished-at="2020-06-29T12:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="validatePayorFilter()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="validatePayorFilter" duration-ms="30214" started-at="2020-06-29T12:45:27Z" finished-at="2020-06-29T12:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePayorFilter -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="tearDown" is-config="true" duration-ms="806" started-at="2020-06-29T12:45:58Z" finished-at="2020-06-29T12:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="init" is-config="true" duration-ms="16619" started-at="2020-06-29T12:45:58Z" finished-at="2020-06-29T12:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="validatePayorselectePayor()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="validatePayorselectePayor" duration-ms="25479" started-at="2020-06-29T12:46:15Z" finished-at="2020-06-29T12:46:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePayorselectePayor -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="tearDown" is-config="true" duration-ms="784" started-at="2020-06-29T12:46:40Z" finished-at="2020-06-29T12:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchReport()[pri:0, instance:com.qa.BAI_Portal_Tests.BAI_Home_Test@5891e32e]" name="launchReport" is-config="true" duration-ms="1" started-at="2020-06-29T12:46:42Z" finished-at="2020-06-29T12:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchReport -->
+      </class> <!-- com.qa.BAI_Portal_Tests.BAI_Home_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
